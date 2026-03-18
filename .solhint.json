@@ -1,0 +1,19 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": ["error", "0.8.26"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "immutable-vars-naming": ["warn", { "immutablesAsContants": true }],
+    "named-parameters-mapping": "warn",
+    "no-empty-blocks": "warn",
+    "avoid-low-level-calls": "off",
+    "no-inline-assembly": "off",
+    "ordering": "warn",
+    "private-vars-leading-underscore": [
+      "warn",
+      {
+        "strict": false
+      }
+    ]
+  }
+}

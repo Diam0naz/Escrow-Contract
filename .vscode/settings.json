@@ -1,0 +1,13 @@
+{
+    // Osmium — keep for deployment/testing, disable linter
+    "osmium-solidity.linter": false,
+    "osmium-solidity.slither": false,
+
+    // Solhint — your new inline linter
+    "solidity.linter": "solhint",
+    "solidity.solhintRules": {},
+
+    // General editor
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+}

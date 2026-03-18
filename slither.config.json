@@ -1,0 +1,5 @@
+{
+  "filter_paths": "lib/",
+  "solc_remaps": "@openzeppelin=lib/openzeppelin-contracts",
+  "detectors_to_exclude": "naming-convention,low-level-calls"
+}
